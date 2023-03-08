@@ -8,5 +8,6 @@ const generateNumber = () => {
 };
 
 btn.addEventListener("click", generateNumber);
+generateNumber();
 // const rand = Math.floor(Math.random() * 10 + 1);
 // console.log(rand);
